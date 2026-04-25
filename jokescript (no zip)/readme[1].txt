@@ -1,0 +1,1 @@
+WARNING: If you click no twice, the script will spawn 2763 instances of 2763 after destroying wininit. Have fun with the script!
